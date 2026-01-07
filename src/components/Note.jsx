@@ -138,7 +138,7 @@ function Note({ propTitle = "", propContent = "", index }) {
       </div>
 
       {/* view box html */}
-      <div id={`viewNote${index}`} className='w-3/4 max-w-90 h-[60vh] scrollbar-hide  overflow-y-auto p-5 rounded-xl flex flex-col shadow-xl/30 fixed bg-white left-1/2 -translate-x-1/2 top-40 scale-0 duration-300'>
+      <div id={`viewNote${index}`} className='w-3/4 max-w-90 h-[60vh] scrollbar-hide break-all overflow-y-auto p-5 rounded-xl flex flex-col shadow-xl/30 fixed bg-white left-1/2 -translate-x-1/2 top-40 scale-0 duration-300'>
         <div className='flex justify-end gap-2'>
           <img onClick={editHandle} src={editIcon} alt="Edit" title='Edit' className='w-4 hover:scale-110 cursor-pointer mt-1' />
           <img onClick={deleteHandle} src={deleteIcon} alt="Delete" title='Delete' className='w-4 hover:scale-110 cursor-pointer' />
