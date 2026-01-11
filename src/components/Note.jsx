@@ -149,7 +149,7 @@ function Note({ propTitle = "", propContent = "", index }) {
       </div>
 
       {/* edit note html */}
-      <div id={`editNote${index}`} className='w-3/4 max-w-90 p-5 rounded-xl flex flex-col shadow-xl/30 fixed bg-white left-1/2 -translate-x-1/2 top-40 scale-0 duration-300 overflow-y-scroll'>
+      <div id={`editNote${index}`} className='w-3/4 max-w-90 p-5 rounded-xl flex flex-col shadow-xl/30 fixed bg-white left-1/2 -translate-x-1/2 top-40 scale-0 duration-300'>
         <div className='flex justify-end gap-2'>
           <img onClick={crossHandle} src={crossIcon} alt="Close" title='Close' className='w-5.5 hover:scale-110 cursor-pointer mt-1' />
         </div>
